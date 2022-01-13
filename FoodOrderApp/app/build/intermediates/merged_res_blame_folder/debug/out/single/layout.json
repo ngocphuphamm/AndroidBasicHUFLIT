@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profile.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recycler_row.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\recycler_row.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order_succeess.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_order_succeess.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_notification.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\content_notification.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_history.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\item_history.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\place_order_recycler_row.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\place_order_recycler_row.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_notification.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_restaurant_menu.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_restaurant_menu.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\menu_recycler_row.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\menu_recycler_row.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_history.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_place_your_order.xml",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_place_your_order.xml"
+    }
+]

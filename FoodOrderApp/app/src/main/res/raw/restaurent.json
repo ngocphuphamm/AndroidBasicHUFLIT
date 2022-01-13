@@ -1,0 +1,310 @@
+[
+  {
+    "name":"Pizza Company",
+    "address":"222 Cao Thắng,Quận 10",
+    "delivery_charge": 5,
+    "image":"https://thepizzacompany.vn/images/thumbs/000/0002380_Logo-TPC-Nen%20toi-Vie-2.png",
+
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 9:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 11:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 11:00 PM",
+      "Saturday":"10:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Pizza Hải Sản Đào",
+        "price": 169.000,
+        "url": "https://thepizzacompany.vn/images/thumbs/000/0002705_seafood-peach_300.png"
+      },
+      {
+        "name": "Spaghettios Pizza",
+        "price": 169.000,
+        "url": "https://thepizzacompany.vn/images/thumbs/000/0002624_seafood-pesto_300.png"
+      },
+      {
+        "name": "Pizza Hải Sản Cocktail",
+        "price": 129.000,
+        "url": "https://thepizzacompany.vn/images/thumbs/000/0002212_sf-cocktail_300.png"
+      },
+      {
+        "name": "Pizza Hải Sản Pesto",
+        "price": 169.000,
+        "url": "https://www.thepizzacompany.vn/images/thumbs/000/0002624_seafood-pesto_300.png"
+      },
+      {
+        "name": "Pizza Xúc Xích Ý",
+        "price": 99.000,
+        "url": "https://www.thepizzacompany.vn/images/thumbs/000/0002225_double-pepperoni_300.png"
+      },
+      {
+        "name": "Bánh Mì Que Nướng",
+        "price": 49.000,
+        "url": "https://thepizzacompany.vn/images/thumbs/000/0002247_bread-sticks-w-dipping-sauce_300.jpeg"
+      },
+      {
+        "name": "Cánh Gà Nướng BBQ(10 cái)",
+        "price": 199.000,
+        "url": "https://thepizzacompany.vn/images/thumbs/000/0002416_bbq-chicken-wings-10-pcs_300.png"
+      },
+      {
+        "name": "Mì Ý Giawm bông Và Nấm Sốt Kem",
+        "price": 99.000,
+        "url": "https://thepizzacompany.vn/images/thumbs/000/0002255_spaghetti-ham-mushroom_300.png"
+      },
+      {
+        "name": "Mì Ý Thịt Bò Bằm",
+        "price": 129.000,
+        "url": "https://thepizzacompany.vn/images/thumbs/000/0002258_spaghetti-bolognese_300.png"
+      },
+      {
+        "name": "Mì Ý Chay Sốt Kem Tươi",
+        "price": 129.000,
+        "url": "https://www.thepizzacompany.vn/images/thumbs/000/0002260_spaghetti-veggi-mushroom-cream-sauce_300.png"
+      }
+    ]
+  },
+  {
+    "name":"The Coffee House",
+    "address":"370 Cộng Hòa,Tân Bình",
+    "delivery_charge": 4,
+    "image":"https://th.bing.com/th/id/OIP.6RohMpOo1nthN2a4tMTL2QHaD4?w=305&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"9:00 AM - 1:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Cafe Sữa Đá Chai Fresh 250ml",
+        "price": 39.000,
+        "url": "https://minio.thecoffeehouse.com/image/admin/BottleCFSD_496652_400x400.jpg"
+      },
+      {
+        "name": "Trà Phúc Bồn Tử",
+        "price": 50.000,
+        "url": "https://minio.thecoffeehouse.com/image/admin/tra-pbt_728279_400x400.jpg"
+      },
+      {
+        "name": "Trà Đào Cam Xả 500ml",
+        "price": 59.000,
+        "url": "https://minio.thecoffeehouse.com/image/admin/Bottle_TraDao_836487_400x400.jpg"
+      },
+      {
+        "name": "Trà Sửa Ô Long Nướng 500ml",
+        "price": 59.000,
+        "url": "https://minio.thecoffeehouse.com/image/admin/Bottle_oolong_285082_400x400.jpg"
+      },
+      {
+        "name": "Trà Hạt Sen - Đá",
+        "price": 52.000,
+        "url": "https://minio.thecoffeehouse.com/image/admin/tra-sen-nong_025153_400x400.jpg"
+      },
+      {
+        "name": "Trà Hạt Sen - Nóng",
+        "price": 45.000,
+        "url": "https://minio.thecoffeehouse.com/image/admin/tra-sen_905594_400x400.jpg"
+      },
+      {
+        "name": "Trà Matcha Latte Nóng",
+        "price": 50.000,
+        "url": "https://minio.thecoffeehouse.com/image/admin/matcha-latte-_936022_400x400.jpg"
+      },
+      {
+        "name": "Trà Đen Machiato",
+        "price": 59.000,
+        "url": "https://minio.thecoffeehouse.com/image/admin/tra-den-matchiato_430281_400x400.jpg"
+      },
+      {
+        "name": "Sinh Tố Việt Quất",
+        "price": 50.000,
+        "url": "https://minio.thecoffeehouse.com/image/admin/sinh-to-viet-quoc_145138_400x400.jpg"
+      },
+      {
+        "name": "Yogurt Dưa Lưới Phát Tài",
+        "price": 60.000,
+        "url": "https://minio.thecoffeehouse.com/image/admin/tra-dua-luoi_114296_400x400.jpg"
+      },
+      {
+        "name": "Trà Việt Quất Đá Xay",
+        "price": 59.000,
+        "url": "https://minio.thecoffeehouse.com/image/admin/DaoVietQuat_033985_400x400.jpg"
+      }
+    ]
+  },
+  {
+    "name":"Don Chicken",
+    "address":"300 Cộng Hòa,Tân Bình",
+    "delivery_charge": 4,
+    "image":"https://th.bing.com/th/id/OIP.eKtf6cuM-ir_JVj9zeiR0QHaHZ?w=169&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"9:00 AM - 1:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Gà Phô Mai Tuyết",
+        "price": 165.000,
+        "url": "https://donchicken.vn/pub/media/catalog/product/cache/c430e3e26517992a27628ce5995d6769/g/a/ga_.jpg"
+      },
+      {
+        "name": "Gà Rán Sốt Gia Vị",
+        "price": 160.000,
+        "url": "https://donchicken.vn/pub/media/catalog/product/cache/c430e3e26517992a27628ce5995d6769/g/a/garangiavi_ngotcay_2.jpg"
+      },
+      {
+        "name": "Cơm Gà Nướng Phô Mai Cay",
+        "price": 280.000,
+        "url": "https://donchicken.vn/pub/media/catalog/product/cache/c430e3e26517992a27628ce5995d6769/c/o/comgaphomaicay.jpg"
+      },
+      {
+        "name": "Gà Không Xương Phô Mai",
+        "price": 300.000,
+        "url": "https://donchicken.vn/pub/media/catalog/product/cache/c430e3e26517992a27628ce5995d6769/g/a/gakoxuongnuongphomai.jpg"
+      },
+      {
+        "name": "Gà Sốt Phô Mai",
+        "price": 280.000,
+        "url": "https://donchicken.vn/pub/media/catalog/product/cache/c430e3e26517992a27628ce5995d6769/g/a/gakoxuongnuongphomai_02.jpg_kho_ng_cay_.jpg"
+      },
+      {
+        "name": "Gà Rán Nữa Con",
+        "price": 150.000,
+        "url": "https://donchicken.vn/pub/media/catalog/product/cache/c430e3e26517992a27628ce5995d6769/g/a/garan.jpg"
+      },
+      {
+        "name": "Gà Rán Sốt Gia Vị Cay",
+        "price": 160.000,
+        "url": "https://donchicken.vn/pub/media/catalog/product/cache/c430e3e26517992a27628ce5995d6769/g/a/garangiavi_ngotcay.jpg"
+      },
+      {
+        "name": "Cơm Trộn Gà",
+        "price": 140.000,
+        "url": "https://donchicken.vn/pub/media/catalog/product/cache/c430e3e26517992a27628ce5995d6769/c/o/comtronga_1.jpg"
+      },
+      {
+        "name": "Xúc Xích Hầm Hải Sản",
+        "price": 280.000,
+        "url": "https://donchicken.vn/pub/media/catalog/product/cache/c430e3e26517992a27628ce5995d6769/x/u/xucxichhamhaisan.jpg"
+      },
+      {
+        "name": "Mì TTeok-Bokki Phô Mai",
+        "price": 260.000,
+        "url": "https://donchicken.vn/pub/media/catalog/product/cache/c430e3e26517992a27628ce5995d6769/m/i/mitteokbokkiphomai.jpg"
+      },
+      {
+        "name": "Miếng Trộn Hàn Quốc",
+        "price": 120.000,
+        "url": "https://donchicken.vn/pub/media/catalog/product/cache/c430e3e26517992a27628ce5995d6769/m/i/mientronhq.jpg"
+      }
+    ]
+  },
+  {
+    "name":"McDonald's",
+    "address":"350 Cộng Hòa, Tân Bình",
+    "delivery_charge": 5,
+    "image":"https://www.mcdonalds.com/content/dam/usa/nfl/assets/nav/arches-logo_108x108.jpg",
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"9:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Chocolate Shake",
+        "price": 60.000,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg?$Product_Desktop$"
+      },
+      {
+        "name": "Strawberry Shake",
+        "price": 70.000,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg?$Product_Desktop$"
+      },
+      {
+        "name": "Filet-O-Fish",
+        "price": 100.000,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Filet-O-Fish.png?$Product_Desktop$"
+      },
+      {
+        "name": "McNuggets",
+        "price": 70.000,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chicken-McNuggets-4pc.jpg?$Product_Desktop$"
+      },
+      {
+        "name": "Combo Meal",
+        "price": 140.000,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Big-Mac-Extra-Value-Meals.jpg?$Product_Desktop$"
+      },
+      {
+        "name": "McMuffin Meal",
+        "price": 150.000,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Egg-McMuffin-Extra-Value-Meals.jpg?$Product_Desktop$"
+      }
+    ]
+  },
+  {
+    "name":"Cơm Tấm Phúc Lộc Thọ",
+    "address":"200 Cộng Hòa, Tân Bình",
+    "delivery_charge": 6,
+    "image":"https://file.hstatic.net/200000043306/file/untitled-3_45ac453c754943848eef2d916560aaaf.png",
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"10:00 AM - 3:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Cơm Sườn + 1 Món Kèm",
+        "price": 4.00,
+        "url": "https://product.hstatic.net/200000043306/product/combo-suon-mot-mon-kem_c9f9b6f6d9a6411188a5949dd23da329_grande.png"
+      },
+      {
+        "name": "Cơm Ba Rọi + 1 Món Kèm",
+        "price": 3.25,
+        "url": "https://product.hstatic.net/200000043306/product/combo-dui-ga-1-mon-kem_67d6b50d0dd44bfb8947b857b6ec3ef0_grande.png"
+      },
+      {
+        "name": "Cơm Đùi Gà + 1 Món Kèm",
+        "price": 5.49,
+        "url": "https://product.hstatic.net/200000043306/product/combo-ba-roi-1-mon-kem_bc531b7d9277454db52af852a1c088ac_grande.png"
+      },
+      {
+        "name": "Cơm Sườn + 2 Món Kèm",
+        "price": 3.99,
+        "url": "https://product.hstatic.net/200000043306/product/combo-suon-2-mon-kem_69dc112339ef4170ae19726c3aeecb4e_grande.png"
+      },
+      {
+        "name": "Cơm Ba Rọi + 2 Món Kèm",
+        "price": 8.09,
+        "url": "https://product.hstatic.net/200000043306/product/combo-dui-ga-2-mon-kem_69a011bc7fdf4d04849fdc2fd1caa428_grande.png"
+      },
+      {
+        "name": "Cơm Đùi Gà + 2 Món Kèm",
+        "price": 6.49,
+        "url": "https://product.hstatic.net/200000043306/product/combo-ba-roi-2-mon-kem_b044d54453e548749d1cd6897290a54c_grande.png"
+      }
+    ]
+  }
+]
