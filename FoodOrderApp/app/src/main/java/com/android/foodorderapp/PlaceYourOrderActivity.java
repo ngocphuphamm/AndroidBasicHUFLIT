@@ -71,7 +71,9 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
         buttonPlaceYourOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                
                 onPlaceOrderButtonClick(restaurantModel);
+
             }
         });
 
@@ -85,13 +87,14 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
                     inputZip.setVisibility(View.VISIBLE);
                     tvDeliveryChargeAmount.setVisibility(View.VISIBLE);
                     tvDeliveryCharge.setVisibility(View.VISIBLE);
+                    inputZip.setVisibility(View.VISIBLE);
                     isDeliveryOn = true;
                     calculateTotalAmount(restaurantModel);
                 } else {
 
                     inputCity.setVisibility(View.GONE);
 
-                    inputZip.setVisibility(View.GONE);
+
                     tvDeliveryChargeAmount.setVisibility(View.GONE);
                     tvDeliveryCharge.setVisibility(View.GONE);
                     isDeliveryOn = false;

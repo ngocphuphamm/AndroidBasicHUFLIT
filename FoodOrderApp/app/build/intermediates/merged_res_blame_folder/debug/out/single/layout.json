@@ -44,10 +44,6 @@
         "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\place_order_recycler_row.xml"
     },
     {
-        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_notification.xml",
-        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_notification.xml"
-    },
-    {
         "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_restaurant_menu.xml",
         "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_restaurant_menu.xml"
     },

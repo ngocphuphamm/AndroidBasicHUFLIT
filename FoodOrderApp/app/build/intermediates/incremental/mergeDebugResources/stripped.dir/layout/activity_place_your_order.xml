@@ -101,10 +101,10 @@
             android:layout_marginEnd="10dp"
             android:layout_marginTop="05dp"
             android:layout_marginBottom="05dp"
-            android:hint="Nhập số điện thoại"
-            android:inputType="number"
-            android:maxLength="11"
-            android:visibility="gone"/>
+            android:hint="Nhập Ghi chú"
+
+
+            />
 
 
         <TextView

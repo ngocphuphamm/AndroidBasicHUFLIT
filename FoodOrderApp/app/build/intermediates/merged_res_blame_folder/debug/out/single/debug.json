@@ -56,12 +56,12 @@
         "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
-        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_image_delivery.png.flat",
-        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\drawable-mdpi\\image_delivery.png"
-    },
-    {
         "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_phone_profile.png.flat",
         "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\drawable-mdpi\\icon_phone_profile.png"
+    },
+    {
+        "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_image_delivery.png.flat",
+        "source": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\src\\main\\res\\drawable-mdpi\\image_delivery.png"
     },
     {
         "merged": "D:\\DoAn\\didong-main\\didong-main\\FoodOrderApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_thongbao5.png.flat",

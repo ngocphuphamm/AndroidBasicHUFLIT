@@ -1,5 +1,6 @@
 package com.android.foodorderapp;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,6 +14,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginActivity extends AppCompatActivity {
     //    ImageView imageView2;
@@ -39,28 +45,7 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (edtUsername.getText().toString().isEmpty() || edtPassword.getText().toString().isEmpty())
-                {
-                    Toast.makeText(LoginActivity.this,"Nhap password hoac username vao di ",Toast.LENGTH_SHORT).show();
-                }else if(edtPassword.getText().toString().length() <6)
-                    edtPassword.setError("nhỏ hơn 6 số ");
-                else if (!(edtUsername.getText().toString().equals(userName)))
-                {
-                    Toast.makeText(LoginActivity.this, "Tài khoản chưa tồn tại", Toast.LENGTH_SHORT).show();
-                }
-                else if (!(edtPassword.getText().toString().equals(passWord)))
-                {
-                    Toast.makeText(LoginActivity.this, "sai pasword", Toast.LENGTH_SHORT).show();
-                }
-                else if(edtUsername.getText().toString().equals(userName)&&(edtPassword.getText().toString().equals(passWord)))
-                {
-                    Intent intent = new Intent(LoginActivity.this,MainActivity.class);
-                    intent.putExtra("username", edtUsername.getText().toString());
-                    intent.putExtra("password", edtPassword.getText().toString());
-                    edtUsername.setText(userName);
-                    edtPassword.setText(passWord);
-                    startActivity(intent);
-                }
+               onClickSignIn();
             }
         });
         btnRegister.setOnClickListener(new View.OnClickListener() {
@@ -78,5 +63,28 @@ public class LoginActivity extends AppCompatActivity {
             edtUsername.setText(data.getStringExtra("mail"));
             edtPassword.setText(data.getStringExtra("pass"));
         }
+    }
+    private void onClickSignIn()
+    {
+        String email = edtUsername.getText().toString().trim();
+        String password = edtPassword.getText().toString().trim();
+        FirebaseAuth mAuth = FirebaseAuth.getInstance();
+        mAuth.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // Sign in success, update UI with the signed-in user's information
+                            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                            startActivity(intent);
+                            finishAffinity();
+                        } else {
+
+                            Toast.makeText(LoginActivity.this, "Đăng nhập thất bại.",
+                                    Toast.LENGTH_SHORT).show();
+
+                        }
+                    }
+                });
     }
 }
