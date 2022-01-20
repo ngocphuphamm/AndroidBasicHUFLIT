@@ -29,7 +29,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class PlaceYourOrderActivity extends AppCompatActivity {
 
-    private EditText inputName, inputAddress, inputCity ,inputZip;
+    private EditText inputName, inputAddress, inputCity ,inputZip,inputPhone;
     private RecyclerView cartItemsRecyclerView;
     private TextView tvSubtotalAmount, tvDeliveryChargeAmount, tvDeliveryCharge, tvTotalAmount, buttonPlaceYourOrder;
     private SwitchCompat switchDelivery;
@@ -81,14 +81,14 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
                 if (isChecked) {
                     inputAddress.setVisibility(View.VISIBLE);
                     inputCity.setVisibility(View.VISIBLE);
-
+                    inputAddress.setVisibility(View.VISIBLE);
                     inputZip.setVisibility(View.VISIBLE);
                     tvDeliveryChargeAmount.setVisibility(View.VISIBLE);
                     tvDeliveryCharge.setVisibility(View.VISIBLE);
                     isDeliveryOn = true;
                     calculateTotalAmount(restaurantModel);
                 } else {
-                    inputAddress.setVisibility(View.GONE);
+
                     inputCity.setVisibility(View.GONE);
 
                     inputZip.setVisibility(View.GONE);

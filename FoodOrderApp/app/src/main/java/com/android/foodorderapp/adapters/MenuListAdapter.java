@@ -99,11 +99,11 @@ public class MenuListAdapter extends RecyclerView.Adapter<MenuListAdapter.MyView
                 Menu menu  = menuList.get(position);
                 int total = menu.getTotalInCart();
                 total++;
-                if(total <= 10 ) {
+
                     menu.setTotalInCart(total);
                     clickListener.onUpdateCartClick(menu);
                     holder.tvCount.setText(total +"");
-                }
+
             }
         });
 

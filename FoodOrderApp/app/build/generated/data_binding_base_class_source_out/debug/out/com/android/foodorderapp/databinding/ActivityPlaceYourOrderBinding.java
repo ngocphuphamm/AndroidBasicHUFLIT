@@ -37,9 +37,6 @@ public final class ActivityPlaceYourOrderBinding implements ViewBinding {
   public final EditText inputName;
 
   @NonNull
-  public final EditText inputPhone;
-
-  @NonNull
   public final EditText inputZip;
 
   @NonNull
@@ -78,19 +75,17 @@ public final class ActivityPlaceYourOrderBinding implements ViewBinding {
   private ActivityPlaceYourOrderBinding(@NonNull ScrollView rootView,
       @NonNull TextView buttonPlaceYourOrder, @NonNull RecyclerView cartItemsRecyclerView,
       @NonNull EditText inputAddress, @NonNull EditText inputCity, @NonNull EditText inputName,
-      @NonNull EditText inputPhone, @NonNull EditText inputZip,
-      @NonNull SwitchCompat switchDelivery, @NonNull TextView tvCustomerDetails,
-      @NonNull TextView tvDelivery, @NonNull TextView tvDeliveryCharge,
-      @NonNull TextView tvDeliveryChargeAmount, @NonNull TextView tvPickup,
-      @NonNull TextView tvSubtotal, @NonNull TextView tvSubtotalAmount, @NonNull TextView tvTotal,
-      @NonNull TextView tvTotalAmount, @NonNull TextView tvTotalItems) {
+      @NonNull EditText inputZip, @NonNull SwitchCompat switchDelivery,
+      @NonNull TextView tvCustomerDetails, @NonNull TextView tvDelivery,
+      @NonNull TextView tvDeliveryCharge, @NonNull TextView tvDeliveryChargeAmount,
+      @NonNull TextView tvPickup, @NonNull TextView tvSubtotal, @NonNull TextView tvSubtotalAmount,
+      @NonNull TextView tvTotal, @NonNull TextView tvTotalAmount, @NonNull TextView tvTotalItems) {
     this.rootView = rootView;
     this.buttonPlaceYourOrder = buttonPlaceYourOrder;
     this.cartItemsRecyclerView = cartItemsRecyclerView;
     this.inputAddress = inputAddress;
     this.inputCity = inputCity;
     this.inputName = inputName;
-    this.inputPhone = inputPhone;
     this.inputZip = inputZip;
     this.switchDelivery = switchDelivery;
     this.tvCustomerDetails = tvCustomerDetails;
@@ -159,12 +154,6 @@ public final class ActivityPlaceYourOrderBinding implements ViewBinding {
       id = R.id.inputName;
       EditText inputName = rootView.findViewById(id);
       if (inputName == null) {
-        break missingId;
-      }
-
-      id = R.id.inputPhone;
-      EditText inputPhone = rootView.findViewById(id);
-      if (inputPhone == null) {
         break missingId;
       }
 
@@ -241,9 +230,9 @@ public final class ActivityPlaceYourOrderBinding implements ViewBinding {
       }
 
       return new ActivityPlaceYourOrderBinding((ScrollView) rootView, buttonPlaceYourOrder,
-          cartItemsRecyclerView, inputAddress, inputCity, inputName, inputPhone, inputZip,
-          switchDelivery, tvCustomerDetails, tvDelivery, tvDeliveryCharge, tvDeliveryChargeAmount,
-          tvPickup, tvSubtotal, tvSubtotalAmount, tvTotal, tvTotalAmount, tvTotalItems);
+          cartItemsRecyclerView, inputAddress, inputCity, inputName, inputZip, switchDelivery,
+          tvCustomerDetails, tvDelivery, tvDeliveryCharge, tvDeliveryChargeAmount, tvPickup,
+          tvSubtotal, tvSubtotalAmount, tvTotal, tvTotalAmount, tvTotalItems);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

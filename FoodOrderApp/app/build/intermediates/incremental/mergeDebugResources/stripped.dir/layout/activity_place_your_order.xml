@@ -62,8 +62,9 @@
             android:layout_marginBottom="05dp"
             android:hint="Nhập tên của bạn "/>
 
-        <EditText
-            android:id="@+id/inputPhone"
+
+
+        <EditText android:id="@+id/inputAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -73,20 +74,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inputName" />
-
-        <EditText android:id="@+id/inputAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/inputName"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="05dp"
-            android:layout_marginBottom="05dp"
-            android:hint="Nhập địa chỉ"
-            android:visibility="gone"/>
+            app:layout_constraintTop_toBottomOf="@+id/inputName"/>
 
         <EditText android:id="@+id/inputCity"
             android:layout_width="match_parent"
@@ -98,7 +86,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginTop="05dp"
             android:layout_marginBottom="05dp"
-            android:hint="Nhập thành phố "
+            android:hint="Nhập địa chỉ "
             android:visibility="gone"/>
 
 
@@ -129,7 +117,7 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inputPhone" />
+            app:layout_constraintTop_toBottomOf="@+id/inputZip" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/cartItemsRecyclerView"

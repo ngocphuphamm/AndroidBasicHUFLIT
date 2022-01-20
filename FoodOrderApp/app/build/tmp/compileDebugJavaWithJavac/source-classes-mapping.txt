@@ -15,11 +15,17 @@ com/android/foodorderapp/adapters/MenuListAdapter.java
  com.android.foodorderapp.adapters.MenuListAdapter$MyViewHolder
 com/android/foodorderapp/databinding/ActivityMainBinding.java
  com.android.foodorderapp.databinding.ActivityMainBinding
-com/android/foodorderapp/OrderSucceessActivity.java
- com.android.foodorderapp.OrderSucceessActivity
- com.android.foodorderapp.OrderSucceessActivity$1
-com/android/foodorderapp/databinding/ActivityPlaceYourOrderBinding.java
- com.android.foodorderapp.databinding.ActivityPlaceYourOrderBinding
+com/android/foodorderapp/LoginActivity.java
+ com.android.foodorderapp.LoginActivity
+ com.android.foodorderapp.LoginActivity$1
+ com.android.foodorderapp.LoginActivity$2
+com/android/foodorderapp/MainActivity.java
+ com.android.foodorderapp.MainActivity
+ com.android.foodorderapp.MainActivity$1
+ com.android.foodorderapp.MainActivity$2
+ com.android.foodorderapp.MainActivity$3
+ com.android.foodorderapp.MainActivity$4
+ com.android.foodorderapp.MainActivity$5
 com/android/foodorderapp/databinding/RecyclerRowBinding.java
  com.android.foodorderapp.databinding.RecyclerRowBinding
 com/android/foodorderapp/model/Menu.java
@@ -62,9 +68,8 @@ com/android/foodorderapp/model/Oder.java
  com.android.foodorderapp.model.Oder
 com/android/foodorderapp/databinding/ContentNotificationBinding.java
  com.android.foodorderapp.databinding.ContentNotificationBinding
-com/android/foodorderapp/RestaurantMenuActivity.java
- com.android.foodorderapp.RestaurantMenuActivity
- com.android.foodorderapp.RestaurantMenuActivity$1
+com/android/foodorderapp/databinding/ActivityPlaceYourOrderBinding.java
+ com.android.foodorderapp.databinding.ActivityPlaceYourOrderBinding
 com/android/foodorderapp/databinding/ActivityHistoryBinding.java
  com.android.foodorderapp.databinding.ActivityHistoryBinding
 com/android/foodorderapp/databinding/ActivityRestaurantMenuBinding.java
@@ -77,11 +82,9 @@ com/android/foodorderapp/adapters/RestaurantListAdapter.java
  com.android.foodorderapp.adapters.RestaurantListAdapter$RestaurantListClickListener
 com/android/foodorderapp/ProfileActivity.java
  com.android.foodorderapp.ProfileActivity
-com/android/foodorderapp/PlaceYourOrderActivity.java
- com.android.foodorderapp.PlaceYourOrderActivity
- com.android.foodorderapp.PlaceYourOrderActivity$1
- com.android.foodorderapp.PlaceYourOrderActivity$2
- com.android.foodorderapp.PlaceYourOrderActivity$3
+com/android/foodorderapp/OrderSucceessActivity.java
+ com.android.foodorderapp.OrderSucceessActivity
+ com.android.foodorderapp.OrderSucceessActivity$1
 com/android/foodorderapp/FirstFragment.java
  com.android.foodorderapp.FirstFragment
  com.android.foodorderapp.FirstFragment$1
@@ -90,14 +93,11 @@ com/android/foodorderapp/databinding/ActivitySplashBinding.java
 com/android/foodorderapp/adapters/HistoryAdapter.java
  com.android.foodorderapp.adapters.HistoryAdapter
  com.android.foodorderapp.adapters.HistoryAdapter$Viewholider
-com/android/foodorderapp/LoginActivity.java
- com.android.foodorderapp.LoginActivity
- com.android.foodorderapp.LoginActivity$1
- com.android.foodorderapp.LoginActivity$2
-com/android/foodorderapp/MainActivity.java
- com.android.foodorderapp.MainActivity
- com.android.foodorderapp.MainActivity$1
- com.android.foodorderapp.MainActivity$2
- com.android.foodorderapp.MainActivity$3
- com.android.foodorderapp.MainActivity$4
- com.android.foodorderapp.MainActivity$5
+com/android/foodorderapp/PlaceYourOrderActivity.java
+ com.android.foodorderapp.PlaceYourOrderActivity
+ com.android.foodorderapp.PlaceYourOrderActivity$1
+ com.android.foodorderapp.PlaceYourOrderActivity$2
+ com.android.foodorderapp.PlaceYourOrderActivity$3
+com/android/foodorderapp/RestaurantMenuActivity.java
+ com.android.foodorderapp.RestaurantMenuActivity
+ com.android.foodorderapp.RestaurantMenuActivity$1

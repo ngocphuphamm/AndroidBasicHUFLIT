@@ -38,7 +38,7 @@
         <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/activity_notification.xml" value="0.1" />
         <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/activity_order_succeess.xml" value="0.1" />
-        <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/activity_place_your_order.xml" value="0.22" />
+        <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/activity_place_your_order.xml" value="0.33" />
         <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/activity_profile.xml" value="0.1" />
         <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/activity_restaurant_menu.xml" value="0.1" />
@@ -46,6 +46,8 @@
         <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/content_notification.xml" value="0.1" />
         <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/fragment_first.xml" value="0.1" />
         <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/fragment_second.xml" value="0.1" />
+        <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/place_order_recycler_row.xml" value="0.1671875" />
+        <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/layout/recycler_row.xml" value="0.2" />
         <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20052083333333334" />
         <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/menu/main_menu.xml" value="0.20052083333333334" />
         <entry key="..\:/DoAn/didong-main/didong-main/FoodOrderApp/app/src/main/res/menu/menu.xml" value="0.20052083333333334" />
